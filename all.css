@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1024px;
+  border: 2px solid blue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(./images/logo.png);
+  width: 224px;
+  height: 50px;
+  display: block;
+}
+.menu {
+  display: flex;
+  font-weight: bold;
+}
+
+.menu li {
+  width: 80px;
+  text-align: center;
+}
+
+.menu li a {
+  color: cadetblue;
+  display: block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 5px;
+}
+
+.menu li a:hover {
+  border-bottom: 2px solid cadetblue;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  border: 2px solid blue;
+}
+.course {
+  display: flex;
+  justify-content: space-around;
+}
+.course-item {
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+}
+.course-item h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.course-item p {
+  text-align: left;
+}
+.compareTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.compareTable h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.table th {
+  background-color: lightgrey;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 110px;
+}
+.highlight {
+  color: green;
+}
+
+.qaf {
+  width: 1002px;
+  height: 405px;
+  background: linear-gradient(#00644b, #009771);
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.qaf p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.blanks {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.blanks textarea {
+  margin-right: 20px;
+}
+.blanktitle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.blanktitle label {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.blanktitle input {
+  height: 20px;
+}
+
+.blanks form {
+  border: 1px solid black;
+  margin-left: 20px;
+  display: flex;
+  height: 220px;
+  text-align: left;
+  width: 550px;
+  flex-direction: column;
+  align-items: end;
+}
+.houseblanktitle {
+  border: 1px solid pink;
+  width: 450px;
+  margin-bottom: 15px;
+}
+.btn input {
+  background-color: cadetblue;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 10px;
+}
+.footer {
+  display: flex;
+  margin-bottom: 40px;
+  height: 100px;
+  justify-content: space-between;
+  padding-top: 10px;
+  border: 2px solid green;
+}
+.footer-icon {
+  height: 35px;
+}
+.footer-text p {
+  color: black;
+  margin: 5px;
+}
+.textcolor {
+  color: red;
+}
+.content {
+  padding: 20px;
+}
